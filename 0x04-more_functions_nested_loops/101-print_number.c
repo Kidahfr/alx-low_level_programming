@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_number - prints numbers
- * @n: number to be printed
+ * print_number - print integer
+ * @n: integer
+ *
  * Return:void
  */
-
 void print_number(int n)
 {
 	unsigned int x;
