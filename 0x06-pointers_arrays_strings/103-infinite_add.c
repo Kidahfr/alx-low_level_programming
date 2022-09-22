@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * infinite_add-adds two numbers
- * @n1: first number
- * @n2: second number
- * @r: butter for result
- * @size_r: butter size
+ * infinite_add - adds two numbers
+ * @n1: number
+ * @n2:number
+ * @r: buffer
+ * @size_r: size
  *
- * Return: address of r or 0
+ * Return: r or 0
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i, j, k, l, m, n;
 
-	for (i = 0; n1[1]; i++)
-		;
+	for (i = 0; n1[i]; i++)
+	;
 	for (j = 0; n2[j]; j++)
-		;
+	;
 	if (i > size_r || j > size_r)
 		return (0);
 	m = 0;
