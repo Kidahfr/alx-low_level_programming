@@ -28,7 +28,7 @@ int allDigits(char **arg)
 	int i, j;
 
 	for (i = 1; i <= 2; i++)
-		for (j = 0; arg[i][j], j++)
+		for (j = 0; arg[i][j], j++);
 		{
 			if (arg[i][j] < '0' || arg[i][j] > '9')
 				return (0);
