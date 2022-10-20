@@ -4,7 +4,7 @@ section .text
 global main
 
 main:
-h rbp
+push rbp
 
 mov rdi, fmt
 mov rsi, msg
@@ -19,4 +19,3 @@ ret
 section .data
 msg: db "Hello, Holberton", 0
 fmt: db "%s", 10, 0
-
